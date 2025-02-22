@@ -1,0 +1,41 @@
+.food-display {
+    padding: 20px;
+  }
+  
+  .food-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+    row-gap: 50px;
+  }
+  
+  .food-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .food-item img.food-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .food-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .food-item p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .food-item p.price {
+    font-weight: bold;
+    color: green;
+  }
+  
